@@ -61,6 +61,41 @@ DRY - Don't repeat yourself
 
 erb is embedded ruby
 
+git checkout master
+
+git merge static-pages
+
+
+bundle exec rake test
+
+single quoted strings do not allow interpolation
+
+every thing in ruby are objects
+
+nil always returns false
+
+and all other objects in ruby return 
+true even 0
+
+inspect method returns a string with a literal representation
+of the object it's called on.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
