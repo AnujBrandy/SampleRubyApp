@@ -80,6 +80,34 @@ true even 0
 inspect method returns a string with a literal representation
 of the object it's called on.
 
+p is for puts
+
+Page    URL      Named Route
+
+Home    /        root_path
+About   /about   about_path
+Help    /help    help_path
+Contact /contact contact_path
+Sign Up /signup  signup_path
+Log In  /login   login_path
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
