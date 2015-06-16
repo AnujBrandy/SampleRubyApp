@@ -15,3 +15,86 @@ git checkout -b static pages
 
 rails generate controller staticPages home help
 
+git push -u origin static-pages
+
+static-pages is the branch
+
+undoing things in rails
+
+to undo things use 
+
+rails destroy controler staticPages home help
+
+rails destroy model user
+
+bundle exec rake db:migrate
+
+bundle exec rake db:rollback
+
+to go all the way back to the beginning
+
+bundle exec rake db:migrate VERSION=0
+
+get, post, patch, delete
+
+refactor : changing its form without changing the function
+
+main testing tools
+
+controller tests
+
+model tests
+
+integration tests
+
+bundle exec rake test
+
+//to test the tests that we have written for the project
+
+page    url                  base title                              variable title
+
+home    /static_pages/home   "Ruby on rails tutorial sample app"    "Home"
+help    /static_pages/help   "Ruby on rails tutorial sample app"    "Help"
+about   /static_pages/about  "Ruby on rails tutorial sample app"    "About"
+
+DRY - Don't repeat yourself
+
+erb is embedded ruby
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

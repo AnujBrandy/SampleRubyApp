@@ -1,0 +1,3 @@
+we use bundle install to install and include the gems specified in the gemfile while skipping the installation of production gems using the option --without production
+
+
