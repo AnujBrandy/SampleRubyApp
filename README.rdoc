@@ -3,3 +3,15 @@
 This is the sample application for the
 ruby on rails tutorial.
 
+heroku logs
+
+heroku create 
+
+git push heroku create
+
+git checkout master
+
+git checkout -b static pages
+
+rails generate controller staticPages home help
+
