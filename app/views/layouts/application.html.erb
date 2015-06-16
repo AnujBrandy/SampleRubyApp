@@ -18,10 +18,15 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
   </head>
   <body>
-    <%= render 'layouts/header' %>
-      
+    <div class="container">
+      <%= render 'layouts/header' %>
+    </div>
+    <div class = "container"><h1>-</h1></div>
     <div class="container">
       <%= yield %>
+      
+    </div>
+    <div class="container">
       <%= render "layouts/footer" %>
     </div>
   </body>
